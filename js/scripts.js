@@ -26,9 +26,10 @@ function ouncetogram(number1) {
   return (number1 * 28.35);
 }
 
-const number1 = parseInt(prompt("Enter degrees in farenheit:"));
+$(document).ready(function() {
+  const number1 = parseInt(prompt("Enter a number:"));
+  const number2 = parseInt(prompt("Enter another number:"));
 
-const result = fartocel(number1).toFixed(2) + " degrees Celsius";
-
-alert(result)
+  alert(add(number1, number2));
+alert(result);
 
